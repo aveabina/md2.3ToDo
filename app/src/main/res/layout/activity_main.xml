@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#c7dbff">
+
+    <TextView
+        android:id="@+id/tvSee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Enter the button to SEE todo-list"
+        android:layout_marginTop="70dp"
+        android:textColor="#2a323b"
+        android:textSize="20sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnSee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="TODO-list"
+        android:onClick="onClick">
+    </Button>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:src="@drawable/main"
+        android:layout_marginTop="55dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>

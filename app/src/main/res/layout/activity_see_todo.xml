@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#c7dbff">
+
+
+    <TextView
+        android:id="@+id/tvDO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="No"
+        android:layout_marginTop="40dp"
+        android:textColor="#2a323b"
+        android:textSize="20sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Enter the button to ADD new note"
+        android:layout_marginTop="200dp"
+        android:textColor="#2a323b"
+        android:textSize="20sp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="ADD NOTE"
+        android:onClick="onClick">
+    </Button>
+
+
+</LinearLayout>
